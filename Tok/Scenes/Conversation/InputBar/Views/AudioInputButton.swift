@@ -207,9 +207,9 @@ class AudioInputingView: UIView {
         return imageView
     }()
     
-    lazy var animationView: LOTAnimationView = {
-        let animationView = LOTAnimationView(name: "loading")
-        animationView.loopAnimation = true
+    lazy var animationView: AnimationView = {
+        let animationView = AnimationView(name: "loading")
+        animationView.loopMode = .loop
         return animationView
     }()
     
