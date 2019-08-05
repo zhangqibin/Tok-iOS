@@ -1026,6 +1026,7 @@ static NSString *const kMessageToFriendPKKey = @"kMessageToFriendPKKey";
     return userInfo;
 }
 
+//  头像成功之后发送给好友
 - (void)sendAvatarToFriend:(OCTFriend *)friend
 {
     NSParameterAssert(friend);

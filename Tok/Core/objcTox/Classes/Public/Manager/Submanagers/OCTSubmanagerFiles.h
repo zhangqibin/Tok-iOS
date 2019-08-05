@@ -10,6 +10,7 @@
 
 @protocol OCTSubmanagerFiles <NSObject>
 
+//  发送文件
 /**
  * Send given data to particular chat. After sending OCTMessageAbstract with messageFile will be added to this chat.
  * You can monitor progress using this message.

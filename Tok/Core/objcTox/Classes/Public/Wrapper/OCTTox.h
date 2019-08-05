@@ -272,6 +272,7 @@
  */
 - (OCTToxConnectionStatus)friendConnectionStatusWithFriendNumber:(OCTToxFriendNumber)friendNumber error:(NSError **)error;
 
+//  发送消息
 ///**
 // * Send a text chat message to an offline friend.
 // */
