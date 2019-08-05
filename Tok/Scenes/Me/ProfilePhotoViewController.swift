@@ -5,6 +5,7 @@
 //  Created by Bryce on 2018/11/14.
 //  Copyright © 2018 Insight. All rights reserved.
 //
+//  用户头像
 
 import UIKit
 import HXPhotoPicker

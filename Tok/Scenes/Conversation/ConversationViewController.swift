@@ -5,6 +5,7 @@
 //  Created by Bryce on 2018/9/10.
 //  Copyright © 2018年 Insight. All rights reserved.
 //
+//  聊天界面
 
 import UIKit
 import RxSwift

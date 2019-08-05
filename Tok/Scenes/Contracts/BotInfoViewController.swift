@@ -5,6 +5,7 @@
 //  Created by Bryce on 2019/3/29.
 //  Copyright © 2019 Insight. All rights reserved.
 //
+//  添加朋友机器人
 
 import UIKit
 import RxSwift
