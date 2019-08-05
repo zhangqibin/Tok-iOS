@@ -1,41 +1,42 @@
 PODS:
-  - Action (3.10.0):
-    - RxCocoa (~> 4.3)
-    - RxSwift (~> 4.3)
-  - CocoaDebug (0.5.9)
+  - Action (4.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - CocoaDebug (0.7.4)
   - Device (3.1.2)
-  - HXPhotoPicker (2.2.8):
-    - SDWebImage
+  - HXPhotoPicker (2.2.9):
+    - SDWebImage (~> 4.4.6)
     - YYWebImage
   - libopus-patched-config (1.1):
     - libopus-patched-config/float (= 1.1)
   - libopus-patched-config/float (1.1)
   - libsodium (1.0.12)
-  - lottie-ios (2.5.2)
+  - lottie-ios (3.1.0)
   - MBProgressHUD (1.1.0)
-  - Protobuf (3.6.1)
+  - Protobuf (3.8.0)
   - Realm (3.13.1):
     - Realm/Headers (= 3.13.1)
   - Realm/Headers (3.13.1)
-  - Reusable (4.0.5):
-    - Reusable/Storyboard (= 4.0.5)
-    - Reusable/View (= 4.0.5)
-  - Reusable/Storyboard (4.0.5)
-  - Reusable/View (4.0.5)
+  - Reusable (4.1.0):
+    - Reusable/Storyboard (= 4.1.0)
+    - Reusable/View (= 4.1.0)
+  - Reusable/Storyboard (4.1.0)
+  - Reusable/View (4.1.0)
   - RSKImageCropper (2.2.1)
-  - RxAtomic (4.4.1)
-  - RxCocoa (4.4.1):
-    - RxSwift (~> 4.0)
-  - RxSwift (4.4.1):
-    - RxAtomic (~> 4.4)
-  - SDWebImage (4.4.6):
-    - SDWebImage/Core (= 4.4.6)
-  - SDWebImage/Core (4.4.6)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - SDWebImage (4.4.7):
+    - SDWebImage/Core (= 4.4.7)
+  - SDWebImage/Core (4.4.7)
   - SnapKit (4.0.1)
   - SwiftDate (5.0.13)
-  - SwiftMessages (6.0.2):
-    - SwiftMessages/App (= 6.0.2)
-  - SwiftMessages/App (6.0.2)
+  - SwiftMessages (7.0.0):
+    - SwiftMessages/App (= 7.0.0)
+  - SwiftMessages/App (7.0.0)
   - SwiftyCam (4.0.0)
   - TextFieldEffects (1.5.1)
   - TPCircularBuffer (1.6.1)
@@ -87,8 +88,8 @@ SPEC REPOS:
     - Realm
     - Reusable
     - RSKImageCropper
-    - RxAtomic
     - RxCocoa
+    - RxRelay
     - RxSwift
     - SDWebImage
     - SnapKit
@@ -103,25 +104,25 @@ SPEC REPOS:
     - YYWebImage
 
 SPEC CHECKSUMS:
-  Action: 24de4abf6efecd239fa7d8e923df010a12f153d9
-  CocoaDebug: a9340ab62aff3d42937fe789f810552a14751d52
+  Action: 0d14986aad0f1330aa27ce65d0cdeaacbb63d91c
+  CocoaDebug: 6d239f37d060bc0760e1a4461021d6f165c2b31e
   Device: 62242076214c30fb5760174b3601cefafa70a481
-  HXPhotoPicker: c8d59a00c93e248aa6ce7b5852a4e4394649ce5f
+  HXPhotoPicker: 9ddb80fba3b591c4b5c3b80b0498ee3893d80b5a
   libopus-patched-config: 12321105eb4b96e869b7957f3122345fd67928c3
   libsodium: 9a8faa5ef2fa0d2d57bd7f7d79bf8fb7c1a9f0ea
-  lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
+  lottie-ios: 9467723922dfff46f6d4e3019c32594a62440b7c
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
-  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  Protobuf: 3f617b9a6e73605565086864c9bc26b2bf2dd5a3
   Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
-  Reusable: 188be1a54ac0691bc66e5bb24ec6eb91971b315b
+  Reusable: 82be188f29d96dc5eff0db7b2393bcc08d2cdd5b
   RSKImageCropper: 98296ad26b41753f796b6898d015509598f13d97
-  RxAtomic: f8d6adc1ccb87a767811269e4875887bc74dbf19
-  RxCocoa: 2f35a76bf8887872e28a1914112395b11b8e0e64
-  RxSwift: 92fcf68dfef21f3e2ab1965363d9e7b3d787597e
-  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
   SwiftDate: f4aea5fa9dee812485f34041121a4cbde01b0dee
-  SwiftMessages: 8b3cc68dba2f1c91aac1a74c90b10287aac35371
+  SwiftMessages: a952f7a9103d9aeab93730a2861d2d8fcdd8758f
   SwiftyCam: 6e57914771d972fbe508e759dc9d0150a44a93fd
   TextFieldEffects: 7d372f58aeaf9acd9626bbf962680aef926b085d
   TPCircularBuffer: c13243556527551c4d320709c7b14a6d20cdc30a
@@ -132,4 +133,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: d6e13eb328a57e7f1a738e3c1d03ff32bf5131fe
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.2
