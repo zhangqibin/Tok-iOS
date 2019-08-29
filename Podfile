@@ -28,9 +28,6 @@ target 'Tok' do
   pod 'SwiftDate', '~> 5.0.10'
   pod 'SwiftMessages'
   pod 'SwiftyCam'
-  
-  pod 'GoogleWebRTC',  '~> 1.1.25102’
-  pod 'Socket.IO-Client-Swift', '~> 13.3.1'
 
   target 'TokTests' do
     inherit! :search_paths
