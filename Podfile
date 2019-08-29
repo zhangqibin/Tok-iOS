@@ -10,7 +10,7 @@ target 'Tok' do
   pod 'Action'
   pod 'SnapKit', '~> 4.0.1'
   pod 'Reusable'
-  pod "Device"
+  pod 'Device'
   pod 'CocoaDebug', :configurations => ['Debug']
   
   pod 'libsodium'
@@ -28,6 +28,9 @@ target 'Tok' do
   pod 'SwiftDate', '~> 5.0.10'
   pod 'SwiftMessages'
   pod 'SwiftyCam'
+  
+  pod 'GoogleWebRTC',  '~> 1.1.25102’
+  pod 'Socket.IO-Client-Swift', '~> 13.3.1'
 
   target 'TokTests' do
     inherit! :search_paths

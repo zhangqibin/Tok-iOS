@@ -2,8 +2,9 @@ PODS:
   - Action (4.0.0):
     - RxCocoa (~> 5.0)
     - RxSwift (~> 5.0)
-  - CocoaDebug (0.8.2)
+  - CocoaDebug (0.8.6)
   - Device (3.1.2)
+  - GoogleWebRTC (1.1.28913)
   - HXPhotoPicker (2.2.9):
     - SDWebImage (~> 4.4.6)
     - YYWebImage
@@ -33,6 +34,9 @@ PODS:
     - SDWebImage/Core (= 4.4.7)
   - SDWebImage/Core (4.4.7)
   - SnapKit (4.0.1)
+  - Socket.IO-Client-Swift (13.3.1):
+    - Starscream (~> 3.0.2)
+  - Starscream (3.0.6)
   - SwiftDate (5.0.13)
   - SwiftMessages (7.0.0):
     - SwiftMessages/App (= 7.0.0)
@@ -55,6 +59,7 @@ DEPENDENCIES:
   - Action
   - CocoaDebug
   - Device
+  - GoogleWebRTC (~> 1.1.25102)
   - HXPhotoPicker (~> 2.2.8)
   - libopus-patched-config
   - libsodium
@@ -67,6 +72,7 @@ DEPENDENCIES:
   - RxCocoa
   - RxSwift
   - SnapKit (~> 4.0.1)
+  - Socket.IO-Client-Swift (~> 13.3.1)
   - SwiftDate (~> 5.0.10)
   - SwiftMessages
   - SwiftyCam
@@ -79,6 +85,7 @@ SPEC REPOS:
     - Action
     - CocoaDebug
     - Device
+    - GoogleWebRTC
     - HXPhotoPicker
     - libopus-patched-config
     - libsodium
@@ -93,6 +100,8 @@ SPEC REPOS:
     - RxSwift
     - SDWebImage
     - SnapKit
+    - Socket.IO-Client-Swift
+    - Starscream
     - SwiftDate
     - SwiftMessages
     - SwiftyCam
@@ -105,8 +114,9 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Action: 0d14986aad0f1330aa27ce65d0cdeaacbb63d91c
-  CocoaDebug: 23e784cfe240ffa8e14e6c0cce9e793034e6f944
+  CocoaDebug: 2fa89a73ad37b978ef4610c25c35d235f7ee1852
   Device: 62242076214c30fb5760174b3601cefafa70a481
+  GoogleWebRTC: 5ebc515b252f281f3d72b088f0d02b93af48e0e4
   HXPhotoPicker: 9ddb80fba3b591c4b5c3b80b0498ee3893d80b5a
   libopus-patched-config: 12321105eb4b96e869b7957f3122345fd67928c3
   libsodium: 9a8faa5ef2fa0d2d57bd7f7d79bf8fb7c1a9f0ea
@@ -121,6 +131,8 @@ SPEC CHECKSUMS:
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
   SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  Socket.IO-Client-Swift: 79f8f85fa44881838175a20f9bd2c32bef2c9d37
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
   SwiftDate: f4aea5fa9dee812485f34041121a4cbde01b0dee
   SwiftMessages: a952f7a9103d9aeab93730a2861d2d8fcdd8758f
   SwiftyCam: 6e57914771d972fbe508e759dc9d0150a44a93fd
@@ -131,6 +143,6 @@ SPEC CHECKSUMS:
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: d6e13eb328a57e7f1a738e3c1d03ff32bf5131fe
+PODFILE CHECKSUM: 7a4dc79c447e3160324d5344c156627441e68dc8
 
 COCOAPODS: 1.7.5
